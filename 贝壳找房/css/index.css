@@ -1,0 +1,668 @@
+html,body,div,ul,li,ol,p,dd,dl{
+    margin: 0;
+    padding: 0;
+}
+
+ul,li,ol,dd,dl{
+    list-style: none;
+
+}
+
+b, em, i, strong {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.daohang{
+    background: #000 url(../img/1.01.jpg);
+width: 100%;
+height: 566px;
+background-position: center 0;
+padding-top: 34px;
+position: relative;
+}
+
+.fengmian{
+    padding: 0 50px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 头部导航 */
+
+/* 图标 */
+.toubu{
+    float: left;
+}
+
+.touding{
+margin-right: 30px;
+margin-top: 5px;
+display: inline-block;
+background-image: url(../img/1.02.png);
+background-position: -72px 0;
+width: 94px;
+height: 34px;
+}
+
+span,a, a:hover {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+.dizhi{
+    display: inline=block;
+    padding: 0 8px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 14px;
+    border: 2px solid #fff;
+    font-size: 12px; 
+}
+
+.dizhi i{
+    background-image: url(../img/1.02.png);
+    background-position: 33px -34px;
+    width: 10px;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    top: 1px;
+}
+
+/* 导航 */
+.dk{
+float: right;
+}
+
+.sds{
+    line-height: 47px;
+}
+
+.sds ul{
+float: left;
+}
+
+.dis{
+    height: 47px;
+    float: left;
+    position: relative;
+}
+
+.dis a{
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.dis-yezhu{
+    width: 120px;
+    position: absolute;
+    top: 45px;
+    text-align: center;
+    opacity: 0;
+}
+
+.dis-yezhu dd{
+    position: absolute;
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 0;
+    margin-left: -18px;
+    overflow: hidden;
+}
+
+.dis-yezhu dl{
+    line-height: 25px;
+    width: 120px;
+}
+
+.dis-yezhu a{
+    color: #101d37;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.xiazai{
+    width: 120px;
+    position: absolute;
+    top: 45px;
+    text-align: center;
+    opacity: 0;
+}
+
+.xiazai dd{
+    position: absolute;
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 0;
+    margin-left: -18px;
+    overflow: hidden;
+}
+
+.APP{
+    padding: 52px 0 32px;
+    cursor: default;
+    width: 200px;
+    color: #101d37;
+}
+
+.icon{
+    margin: 0 auto 12px;
+    background-image: url(../img/1.02.png);
+    background-position: 0 0;
+    width: 72px;
+    height: 72px;
+}
+
+.title{
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.jia{
+    line-height: 17px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.jia-img{
+    width: 120px;
+    height: 120px;
+}
+
+.sds ul:after{
+    clear: both;
+    display: table;
+    content:"";
+}
+
+.donglu{
+    height: 47px;
+    float: right;
+    margin: 0 50px 0 55px;
+}
+
+.tup{
+    float: right;
+}
+
+.tup i{
+    background-image: url(../img/1.02.png);
+    background-position: -72px -34px;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+.come{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn{
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.reg{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.reg span{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.zhuce{
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.zhuce span{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cler{
+    display: block;
+}
+
+.cler::after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+/* 搜索栏 */
+
+.sousuo{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.sousuo-wrap{
+    margin-top: 116px;
+    text-align: left;
+    color: #fff;
+    font-size: 66px;
+    line-height: 68px;
+    font-weight: 600;
+    font-family: \\5FAE\8F6F\96C5\9ED1,Hiragino Sans GB;
+    letter-spacing: -2.4px;
+}
+
+.sousuo-title{
+    font-size: 28px;
+    line-height: 28px;
+    height: 28px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.sousuo-title span{
+    vertical-align: middle;
+}
+
+.search{
+    width: 590px;
+    position: relative;
+}
+
+.search-con{
+    position: relative;
+    margin-top: 36px;
+}
+
+.search-menu{
+    float: left;
+    height: 41px;
+}
+
+
+.check{
+    opacity: 1;
+    float: left;
+}
+
+.check span{
+    line-height: 25px;
+    height: 25px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 20px 0 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tab{
+    float: left;
+    opacity: 5;
+}
+
+.tab span{
+    line-height: 25px;
+    height: 25px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 20px 0 0;
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.search-menu i{
+    left: 23px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    width: 0;
+    height: 0;
+    transition: all 3s ;
+    position: absolute;
+    top: 31px;
+    border-bottom:10px solid #fff ;
+    z-index: 9;
+}
+
+.search-clwa{
+    clear: both;
+    position: relative;
+    display: block;
+}
+
+.search-box{
+    background: #fff;
+    border-radius: 4px;
+}
+
+.search-chea{
+    position: relative;
+    display: block;
+
+}
+
+.search-axyo{
+    padding-left: 20px ;
+    width: 494px;
+    border: 0;
+    height: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    float: left;
+}
+
+button, input, textarea {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    resize: none;
+    font-family: Hiragino Sans GB,Microsoft Yahei UI,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,Segoe UI,Tahoma,"\5B8B\4F53 b8b\4F53",SimSun,sans-serif;
+}
+
+.search-byn{
+    background-color: #3072f6;
+    width: 76px;
+    height: 63px;
+    float: right;
+    border: 0;
+    display: block;
+    border-radius: 0 4px 0 4px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    transition: all .3s;
+}
+
+.search-byn+i{
+    background-image: url(../img/1.02.png);
+    background-position: -98px -34px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    display: inline-block;
+    top:22px;
+    right: 28px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.search-rtfg{
+    right: 76px;
+    top: 0;
+    height: 50px;
+    background: #fff;
+    width: auto;
+    padding-right: 30px;
+    display: block;
+}
+
+.search-rtfg::after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.search-com{
+    position: relative;
+    border: 1px solid #000;
+    border-top: 0;
+    left: -1px;
+    top: -1px;
+    display: none;
+}
+
+.search-tigs{
+    clear: both;
+    width: auto;
+    margin-top: 1px;
+    position: absolute;
+}
+
+.search-fang{
+    display: none;
+    width: 514px;
+    background: #fff;
+    border: 1px solid #000;
+    border-top: 0;
+    position: relative;
+    left: -1px;
+    top: -1px;
+    z-index: 1002;
+}
+
+.search-name{
+    display: none;
+    background: 35px;
+    color: #849aae;
+    height: 35px;
+    line-height: 35px;
+    padding: 3px 20px;
+}
+
+.hout{
+    color: #849aae;
+    line-height: 35px;
+}
+
+.del{
+    display: none;
+    text-align: right;
+    cursor: pointer;
+    opacity: 5;
+    float: right;
+}
+
+.search-del li{
+    height: 35px;
+    line-height: 35px;
+    padding: 3px 20px;
+}
+
+.search-yfh{
+    color: #101d37;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.search-tigs::after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.header-wews{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    bottom: 20px;
+}
+
+.header-sdsd{
+    float: left;
+}
+
+.header-sdsd i{
+    float: left;
+    margin-top: 4px;
+    vertical-align: middle;
+    background-image: url(../img/1.02.png);
+    background-position: -117px -106px;
+    width: 16px;
+    height: 13px
+}
+
+.header-sdsd ul{
+    margin-left: 5px;
+    position: relative;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+}
+
+/* 页面中部 */
+/* 二手房 */
+
+.ershou{
+clear: both;
+margin-bottom: 80px;
+}
+
+.ershou-wrpes{
+    overflow: hidden;
+    position: relative;
+    margin-top: 80px;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.ershou-name{
+    float: left;
+}
+
+.ershou-huy{
+    font-size: 36px;
+    line-height: 50px;
+    color: #101d37;
+    font-weight: 600;
+}
+
+.ershou-huy p{
+    color: #9399a5;
+    width: 1150px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.ershou-huy a{
+    color: #3072f6;
+    float: right;
+    font-weight: 600;
+}
+
+.ershou-sdef{
+    display: block;
+}
+
+.ershou-sdef::after{
+    content: ".";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.ershou-sdef ul{
+    margin-top: 6px;
+    width: 2100px;
+}
+
+.ershou-huoj{
+    position: relative;
+    width: 265px;
+    height: 315px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.ershou-maid{
+    display: block;
+}
+
+.ershou-sddv  li img{
+    border-radius: 4px;
+    width: 265px;
+    height: 205px;
+    border: 0;
+    vertical-align: top;
+}
+
+.ershou-sdwf{
+    background-image: url(../img/2.03.png);
+    background-size: 45px  45px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 8px;
+    bottom: 118px;
+}
+
+.ershou-burn{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 86px;
+    height: 30px;
+}
+
+.ershou-burn img{
+    width: 86px;
+    height: 30px;
+    border-radius: 0;
+}
+
+.ershou-dhdo{
+    width: 265px;
+    max-height: 92px;
+    background: #fff;
+}
+
+.ershou-wek{
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height:24px;
+    color: #222;
+}
+
+.ershou-wek p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ershou-info{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #616669;
+    line-height:16px;
+    overflow: hidden;
+}
+
+.ershou-price{
+    font-weight: 700;
+    float:right;
+    font-size: 16px;
+    color: #fa5741;
+}
