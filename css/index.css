@@ -532,85 +532,93 @@ button, input, textarea {
 /* 页面中部 */
 /* 二手房 */
 
-.ershou{
-clear: both;
-margin-bottom: 80px;
+.ershoufang[data-component=recommendErshoufang] {
+    clear: both;
+    margin-bottom: 80px;
 }
 
-.ershou-wrpes{
+.ershoufang[data-component=recommendErshoufang] .wrapper {
     overflow: hidden;
     position: relative;
     margin-top: 80px;
     width: 1150px;
+}
+
+.wrapper {
+    width: 1000px;
     margin: 0 auto;
 }
 
-.ershou-name{
+.fl {
     float: left;
 }
 
-.ershou-huy{
+.ershoufang[data-component=recommendErshoufang] .fl .name {
     font-size: 36px;
     line-height: 50px;
     color: #101d37;
     font-weight: 600;
 }
 
-.ershou-huy p{
+.ershoufang[data-component=recommendErshoufang] .fl p {
     color: #9399a5;
     width: 1150px;
     font-size: 16px;
     line-height: 22px;
 }
 
-.ershou-huy a{
+.ershoufang[data-component=recommendErshoufang] .fl p a {
     color: #3072f6;
     float: right;
     font-weight: 600;
 }
 
-.ershou-sdef{
+.clear {
     display: block;
 }
 
-.ershou-sdef::after{
+.clear:after {
     content: ".";
     clear: both;
+    display: block;
     height: 0;
     visibility: hidden;
     font-size: 0;
     line-height: 0;
 }
 
-.ershou-sdef ul{
-    margin-top: 6px;
+.ershoufang[data-component=recommendErshoufang] ul {
+    margin-top: 26px;
     width: 2100px;
 }
 
-.ershou-huoj{
+.ershoufang[data-component=recommendErshoufang] li {
     position: relative;
     width: 265px;
     height: 315px;
     float: left;
-    margin-right: 20px;
+    margin-right: 30px;
     border-radius: 5px;
 }
 
-.ershou-maid{
+.ershoufang[data-component=recommendErshoufang] li a {
     display: block;
 }
 
-.ershou-sddv  li img{
+.ershoufang[data-component=recommendErshoufang] li img {
     border-radius: 4px;
     width: 265px;
     height: 205px;
+}
+
+img {
     border: 0;
     vertical-align: top;
 }
 
-.ershou-sdwf{
+.ershoufang[data-component=recommendErshoufang] li .vr_item {
     background-image: url(../img/2.03.png);
-    background-size: 45px  45px;
+    background-size: 45px 45px;
     width: 45px;
     height: 45px;
     position: absolute;
@@ -618,51 +626,90 @@ margin-bottom: 80px;
     bottom: 118px;
 }
 
-.ershou-burn{
+.ershoufang[data-component=recommendErshoufang] li .goodhouse {
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
     width: 86px;
     height: 30px;
 }
 
-.ershou-burn img{
+.ershoufang[data-component=recommendErshoufang] li .goodhouse img {
     width: 86px;
     height: 30px;
     border-radius: 0;
 }
 
-.ershou-dhdo{
+.ershoufang[data-component=recommendErshoufang] li .bottom {
     width: 265px;
     max-height: 92px;
     background: #fff;
 }
 
-.ershou-wek{
+.ershoufang[data-component=recommendErshoufang] li .bottom .name {
     margin-top: 16px;
     font-size: 18px;
     font-weight: 700;
-    line-height:24px;
+    line-height: 24px;
     color: #222;
 }
 
-.ershou-wek p{
+.ershoufang[data-component=recommendErshoufang] li .bottom .name p {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
-.ershou-info{
+.ershoufang[data-component=recommendErshoufang] li .bottom .info {
     margin-top: 10px;
     font-size: 12px;
     color: #616669;
-    line-height:16px;
+    line-height: 16px;
     overflow: hidden;
 }
 
-.ershou-price{
+.ershoufang[data-component=recommendErshoufang] li .bottom .info .price {
     font-weight: 700;
-    float:right;
+    float: right;
     font-size: 16px;
     color: #fa5741;
+}
+
+/* 小区 */
+
+.xiaoqu{
+    width: 100%;
+    clear: both;
+    margin-bottom: 80px;
+}
+
+.xiaoqu-eddh{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.xiaoqu-bdeh{
+    margin-bottom: 25px;
+    float: left;
+}
+
+.xiaoqu-jisds{
+    font-size: 36px;
+    line-height: 50px;
+    color: #101d37;
+    font-weight: 600;
+}
+
+.xiaoqu .xiaoqu-bdeh p{
+font-size: 16px;
+line-height: 22px;
+color: #9399a5;
+width: 1150px;
+
+}
+
+.xiaoqu .xiaoqu-bdeh p a {
+    color: #3072f6;
+    float: right;
+    font-weight: 600;
 }
