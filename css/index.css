@@ -733,8 +733,9 @@ width: 1150px;
 
 }
 
-.xiaoqu-yyshui ul li{
+.xiaoqu-bti{
     float: left;
+    width: 343px;
     margin-right: 30px;
 }
 
@@ -808,3 +809,4 @@ width: 1150px;
     font-size: 12px;
     line-height: 20px;
 }
+
