@@ -14,7 +14,7 @@ b, em, i, strong {
 }
 
 .daohang{
-    background: #000 url(../img/1.01.jpg);
+    background: #000 url(../images/background1.01.jpg);
 width: 100%;
 height: 566px;
 background-position: center 0;
@@ -40,7 +40,7 @@ position: relative;
 margin-right: 30px;
 margin-top: 5px;
 display: inline-block;
-background-image: url(../img/1.02.png);
+background-image: url(../images/The\ elves\ figure1.02.png);
 background-position: -72px 0;
 width: 94px;
 height: 34px;
@@ -65,7 +65,7 @@ span,a, a:hover {
 }
 
 .dizhi i{
-    background-image: url(../img/1.02.png);
+    background-image: url(../images/The\ elves\ figure1.02.png);
     background-position: 33px -34px;
     width: 10px;
     height: 12px;
@@ -76,11 +76,12 @@ span,a, a:hover {
 }
 
 /* 导航 */
-.dk{
-float: right;
+.dhl{
+    width: 970px;
+    float: right;
 }
 
-.sds{
+.dhl-jli{
     line-height: 47px;
 }
 
@@ -148,16 +149,16 @@ float: left;
     overflow: hidden;
 }
 
-.APP{
+.ruanjian{
     padding: 52px 0 32px;
     cursor: default;
     width: 200px;
     color: #101d37;
 }
 
-.icon{
+.rj-ion{
     margin: 0 auto 12px;
-    background-image: url(../img/1.02.png);
+    background-image: url(../images/The\ elves\ figure1.02.png);
     background-position: 0 0;
     width: 72px;
     height: 72px;
@@ -186,18 +187,20 @@ float: left;
     content:"";
 }
 
+/* 登录 */
+
 .donglu{
     height: 47px;
     float: right;
     margin: 0 50px 0 55px;
 }
 
-.tup{
+.donglu-tup{
     float: right;
 }
 
-.tup i{
-    background-image: url(../img/1.02.png);
+.donglu-tup i{
+    background-image: url(../images/The\ elves\ figure1.02.png);
     background-position: -72px -34px;
     width: 26px;
     height: 26px;
@@ -206,27 +209,27 @@ float: left;
     top: 5px;
     margin-right: 5px;
 }
-.come{
+.donglu-come{
     font-size: 16px;
     font-weight: 700;
 }
 
-.btn{
+.donglu-btn{
     margin-left: 5px;
     font-size: 16px;
 }
 
-.reg{
+.donglu-dl{
     font-size: 16px;
     font-weight: 700;
 }
 
-.reg span{
+.donglu-dl span{
     font-size: 16px;
     font-weight: 700;
 }
 
-.zhuce{
+.donglu-zhuce{
     margin-left: 5px;
     font-size: 16px;
 }
@@ -252,12 +255,12 @@ float: left;
 
 /* 搜索栏 */
 
-.sousuo{
+.search{
     width: 1150px;
     margin: 0 auto;
 }
 
-.sousuo-wrap{
+.search-wrap{
     margin-top: 116px;
     text-align: left;
     color: #fff;
@@ -268,7 +271,7 @@ float: left;
     letter-spacing: -2.4px;
 }
 
-.sousuo-title{
+.search-title{
     font-size: 28px;
     line-height: 28px;
     height: 28px;
@@ -276,11 +279,11 @@ float: left;
     margin-bottom: 18px;
 }
 
-.sousuo-title span{
+.search-title span{
     vertical-align: middle;
 }
 
-.search{
+.search-dier{
     width: 590px;
     position: relative;
 }
@@ -391,7 +394,7 @@ button, input, textarea {
 }
 
 .search-byn+i{
-    background-image: url(../img/1.02.png);
+    background-image: url(../images/The\ elves\ figure1.02.png);
     background-position: -98px -34px;
     width: 19px;
     height: 19px;
@@ -515,7 +518,7 @@ button, input, textarea {
     float: left;
     margin-top: 4px;
     vertical-align: middle;
-    background-image: url(../img/1.02.png);
+    background-image: url(../images/The\ elves\ figure1.02.png);
     background-position: -117px -106px;
     width: 16px;
     height: 13px
@@ -712,4 +715,96 @@ width: 1150px;
     color: #3072f6;
     float: right;
     font-weight: 600;
+}
+
+.xiaoqu-yyshui{
+    clear: both;
+    width: 1150px;
+    overflow: hidden;
+    height: 336px;
+    padding-top: 0;
+    position: relative;
+}
+
+.xiaoqu-yyshui ul{
+    position: absolute;
+    width: 2500px;
+    top: 0;
+
+}
+
+.xiaoqu-yyshui ul li{
+    float: left;
+    margin-right: 30px;
+}
+
+.xiaoqu-yyshui ul li a{
+    width: 346px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius:4px;
+    overflow: hidden;
+}
+
+.xiaoqu-img{
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.xiaoqu-img img{
+    width: 363px;
+    height: 272px;
+    transition: .7s ease-in-out;
+}
+
+.xiaoqu-lide{
+    position: relative;
+    width: 364px;
+    margin-top: 15px;
+}
+
+.xiaoqu-dhfb{
+    overflow: hidden;
+}
+
+.xiaoqu-dsdf{
+    font-size: 18px;
+    line-height: 25px;
+    color: #101d37;
+    float: left;
+    font-weight: 600;
+    max-width: 260px;
+    height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.xiaoqu-jihu{
+    color: #fa5741;
+    font-size: 16px;
+    line-height: 25px;
+    float: right;
+    font-weight: 600;
+}
+
+.xiaoqu-jihu label{
+    color: #fa5741;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.xiaoqu-year{
+    margin-top: 5px;
+    color: #9399a5;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.xiaoqu-year span{
+    color: #9399a5;
+    font-size: 12px;
+    line-height: 20px;
 }
