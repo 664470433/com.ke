@@ -13,6 +13,11 @@ b, em, i, strong {
     font-style: normal;
 }
 
+img{
+    border: 0;
+    vertical-align: top;
+}
+
 .daohang{
     background: #000 url(../images/background1.01.jpg);
 width: 100%;
@@ -255,251 +260,15 @@ float: left;
 
 /* 搜索栏 */
 
-.search{
-    width: 1150px;
-    margin: 0 auto;
-}
-
-.search-wrap{
-    margin-top: 116px;
-    text-align: left;
-    color: #fff;
-    font-size: 66px;
-    line-height: 68px;
-    font-weight: 600;
-    font-family: \\5FAE\8F6F\96C5\9ED1,Hiragino Sans GB;
-    letter-spacing: -2.4px;
-}
-
-.search-title{
-    font-size: 28px;
-    line-height: 28px;
-    height: 28px;
-    font-weight: 400;
-    margin-bottom: 18px;
-}
-
-.search-title span{
-    vertical-align: middle;
-}
-
-.search-dier{
-    width: 590px;
-    position: relative;
-}
-
-.search-con{
-    position: relative;
-    margin-top: 36px;
-}
-
-.search-menu{
-    float: left;
-    height: 41px;
-}
 
 
-.check{
-    opacity: 1;
-    float: left;
-}
 
-.check span{
-    line-height: 25px;
-    height: 25px;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 700;
-    padding: 0 20px 0 0;
-    display: inline-block;
-    cursor: pointer;
-}
+/* 搜索 */
 
-.tab{
-    float: left;
-    opacity: 5;
-}
 
-.tab span{
-    line-height: 25px;
-    height: 25px;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 700;
-    padding: 0 20px 0 0;
-    display: inline-block;
-    cursor: pointer; 
-}
 
-.search-menu i{
-    left: 23px;
-    border-left: 9px solid transparent;
-    border-right: 9px solid transparent;
-    width: 0;
-    height: 0;
-    transition: all 3s ;
-    position: absolute;
-    top: 31px;
-    border-bottom:10px solid #fff ;
-    z-index: 9;
-}
 
-.search-clwa{
-    clear: both;
-    position: relative;
-    display: block;
-}
-
-.search-box{
-    background: #fff;
-    border-radius: 4px;
-}
-
-.search-chea{
-    position: relative;
-    display: block;
-
-}
-
-.search-axyo{
-    padding-left: 20px ;
-    width: 494px;
-    border: 0;
-    height: 0px;
-    border-radius: 4px;
-    font-size: 16px;
-    float: left;
-}
-
-button, input, textarea {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    resize: none;
-    font-family: Hiragino Sans GB,Microsoft Yahei UI,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,Segoe UI,Tahoma,"\5B8B\4F53 b8b\4F53",SimSun,sans-serif;
-}
-
-.search-byn{
-    background-color: #3072f6;
-    width: 76px;
-    height: 63px;
-    float: right;
-    border: 0;
-    display: block;
-    border-radius: 0 4px 0 4px;
-    cursor: pointer;
-    text-align: center;
-    color: #fff;
-    transition: all .3s;
-}
-
-.search-byn+i{
-    background-image: url(../images/The\ elves\ figure1.02.png);
-    background-position: -98px -34px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-    display: inline-block;
-    top:22px;
-    right: 28px;
-    cursor: pointer;
-    pointer-events: none;
-}
-
-.search-rtfg{
-    right: 76px;
-    top: 0;
-    height: 50px;
-    background: #fff;
-    width: auto;
-    padding-right: 30px;
-    display: block;
-}
-
-.search-rtfg::after{
-    content: ".";
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-    font-size: 0;
-    line-height: 0;
-}
-
-.search-com{
-    position: relative;
-    border: 1px solid #000;
-    border-top: 0;
-    left: -1px;
-    top: -1px;
-    display: none;
-}
-
-.search-tigs{
-    clear: both;
-    width: auto;
-    margin-top: 1px;
-    position: absolute;
-}
-
-.search-fang{
-    display: none;
-    width: 514px;
-    background: #fff;
-    border: 1px solid #000;
-    border-top: 0;
-    position: relative;
-    left: -1px;
-    top: -1px;
-    z-index: 1002;
-}
-
-.search-name{
-    display: none;
-    background: 35px;
-    color: #849aae;
-    height: 35px;
-    line-height: 35px;
-    padding: 3px 20px;
-}
-
-.hout{
-    color: #849aae;
-    line-height: 35px;
-}
-
-.del{
-    display: none;
-    text-align: right;
-    cursor: pointer;
-    opacity: 5;
-    float: right;
-}
-
-.search-del li{
-    height: 35px;
-    line-height: 35px;
-    padding: 3px 20px;
-}
-
-.search-yfh{
-    color: #101d37;
-    font-size: 14px;
-    text-decoration: none;
-    display: block;
-    width: 100%;
-}
-
-.search-tigs::after{
-    content: ".";
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-    font-size: 0;
-    line-height: 0;
-}
-
+/* 左下角图标 */
 .header-wews{
     position: absolute;
     color: #fff;
@@ -810,3 +579,305 @@ width: 1150px;
     line-height: 20px;
 }
 
+
+/* 优选新房 */
+
+.xinfang{
+    width: 100%;
+    height: 372px;
+    clear: both;
+    margin-bottom: 80px;
+}
+
+.xinfang-new{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.xinfang-wrapper{
+    margin-bottom: 25px;
+    float: left;
+}
+
+.xinfang-name{
+    font-size: 36px;
+    line-height: 50px;
+    color: #101d37;
+    font-weight: 600;
+}
+
+.xinfang-wrapper p{
+    float: left;
+    width: 1150px;
+    color: #9399a5;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.xinfang-wrapper p a{
+    color: #3072f6;
+    float: right;
+    font-weight: 600;
+}
+
+.xinfang-list{
+    clear: both;
+    width: 1150px;
+    overflow: hidden;
+    height: 272px;
+    position: relative;
+}
+
+.xinfang-list ul{
+    position: absolute;
+    width: 25000px;
+    top: 0;
+}
+
+.xinfang-list ul li{
+    float: left;
+    margin-right: 30px;
+}
+
+.xinfang-list ul li a {
+    width: 363px;
+    height: 272px;
+    display: block;
+    border-radius: 4px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+}
+
+.xinfang-list ul li a img{
+    border-radius: 4px;
+    width: 363px;
+    height: 272px;
+    transition: .7s ease-in-out;
+}
+
+.xinfang-bg{
+    opacity: 3;
+    width: 363px;
+    height: 272px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+
+.xinfang-title{
+    width: 200px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    padding: 82px;
+    bottom: 30px;
+
+}
+
+.xinfang-title span{
+    font-size: 14px;
+    display:block;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.xinfang-title span label{
+    color: #fff;
+    position: relative;
+}
+
+
+
+/* 品质租房 */
+
+
+.zufang{
+    display: block;
+    clear: both;
+    margin-bottom: 80px;
+}
+
+.zufang-wrapper{
+    overflow: hidden;
+    position: relative;
+    margin-top: 80px;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.zufang-zf{
+    float: left;
+}
+
+.zufang-name{
+    font-size: 36px;
+    line-height: 50px;
+    color: #101d37;
+    font-weight: 600;
+}
+
+.zufang-name p{
+    color: #9399a5;
+    width: 1150px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.zufang-name p a {
+    color: #3072f6;
+    float: right;
+    font-weight: 600;
+}
+
+.zufang-clear{
+    display: block;
+}
+
+.zufang-clear:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.zufang-wrapper ul{
+    margin-top: 26px;
+    width: 2100px;
+}
+
+.zufang-zf{
+    position: relative;
+    width: 265px;
+    height: 315px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+.zufang-zf a{
+    display:block;
+    text-decoration: none;
+}
+
+.zufang-wra img{
+width: 265px;
+height: 205px;
+border-radius: 4px;
+}
+
+.zufang-bottom{
+    width: 265px;
+    max-height: 92px;
+    background: #fff;
+}
+
+.zufang-ps{
+    font-size: 18px;
+    color: #101d37;
+    line-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.zufang-tips{
+    overflow: hidden;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.zufang-info{
+float: left;
+color: #9399a5;
+font-size: 12px;
+max-width: 210px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.zufang-price{
+    float: right;
+    color: #fa5741;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* 海外房产 */
+
+.property{
+    display: block;
+}
+
+.property-wrapper{
+    overflow: hidden;
+    position: relative;
+    margin: 80px;
+    width: 1150px;
+}
+
+.property-fl{
+    float: left;
+}
+
+.property-name{
+    font-size: 36px;
+    line-height: 50px;
+    color: #101d37;
+    font-weight: 600;
+}
+
+.property-name p{
+    color: #9399a5;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.property-name .property-fz{
+    color: #3072f6;
+    float: right;
+    font-weight: 600;
+}
+
+.property-clear{
+    display: block;
+}
+
+.property-clear:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.property-xiala ul{
+    margin-top: 26px;
+    width: 2100px;
+}
+
+.property-li{
+    position: relative;
+    width: 265px;
+    height: 315px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+.property-li a{
+    display: block;
+}
+
+.property-img{
+    position: relative;
+}

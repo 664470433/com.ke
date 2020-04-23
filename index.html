@@ -110,158 +110,189 @@
         <div class="cler"></div>
 
         <!-- 搜索栏 -->
-        <div class="search">
-            <div class="search-wrap">
-                <div class="search-title">
+        <div class="header-wrap">
+            <div class="wrap-ico">
+                <div class="title_small">
                     <span>海量真房源 省心上贝壳</span>
                 </div>
-                <div class="search-big">开始寻找属于你的家</div>
+                <div class="title_big">开始寻找属于你的家</div>
             </div>
-            <div class="search-dier">
-                <div class="search-con">
-                    <div class="search-menu">
+            <div class="search-box-wrap">
+                <div class="search-box-con">
+                    <div class="menu">
                         <ul>
-                            <li class="check" data-type="请输入区域、商圈或小区名开始找房">
+                            <li class="tab check" actdata="channel=ershoufang" data-type="试试输入地铁线/站在地铁附近找房，如 13号线">
                                 <span>
                                     找二手房
                                 </span>
                             </li>
-                            <li class="tab" data-type="请输入楼盘名称开始找房">
+                            <li class="tab" actdata="channel=xinfang" data-type="请输入楼盘名称开始找房">
                                 <span>
                                     找新房
                                 </span>
                             </li>
-                            <li class="tab" data-type="请输入区域、商圈或小区名开始找房">
+                            <li class="tab" actdata="channel=zufang" data-type="请输入区域、商圈或小区名开始找房">
                                 <span>
                                     找租房
                                 </span>
                             </li>
-                            <li class="tab" data-type="请输入小区名开始查找小区">
+                            <li class="tab" actdata="channel=xiaoqu" data-type="请输入小区名开始查找小区">
                                 <span>
                                     找小区
                                 </span>
                             </li>
                         </ul>
-                        <!-- 这里不允许行内样式 -->
-                        <i style="left: 23px;"></i>
+                        <i></i>
                     </div>
-                    <div class="search-clwa">
-                        <div class="search-box">
-                            <div class="search-chea">
-                                <input type="text" class="search-axyo" autocomplete="off" name="key"
-                                    placeholder="请输入区域、商圈或小区名开始找房">
-                                <input type="text" style="width: 0px;height: 0px;border: 0px;">
-                                <input type="button" class="search-byn">
+                    <div class="search clear">
+                        <div class="box">
+                            <div class="clear searchBox">
+                                <input class="text left txt searchVal autoSuggest" type="text"
+                                    placeholder="试试输入地铁线/站在地铁附近找房，如 13号线">
+                                <input type="text">
+                                <input class="btn home-ico ico-search left" type="button">
                                 <i></i>
-                                <div class="search-swdf"></div>
+                                <div class="savesearch">
+
+                                </div>
+                            </div>
+                            <div class="suggest-wrap">
+
                             </div>
                         </div>
-                        <div class="search-rtfg" data-el="sug" style="width: 514px;"></div>
-                    </div>
-                    <div class="search-com" style="width: 514px;"></div>
-                    <div class="search-tigs" style="display: none;">
-                        <ul class="search-fang">
-                            <li class="search-name">
-                                <span class="hout">热门搜索</span>
-                                <span class="del">清空</span>
-                            </li>
-                            <div class="search-del">
-                                <li>
-                                    <a href="" class="search-yfh">新龙城</a>
+                        <div class="sug-tips">
+                            <ul>
+                                <li class="hot-name">
+                                    <span class="hot-tips">热门搜索</span>
+                                    <span class="del">清空</span>
                                 </li>
-                                <li>
-                                    <a href="" class="search-yfh">天通苑</a>
+                                <div class="list">
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="1" data-log_value="新龙城">新龙城</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="2" data-log_value="天通苑">天通苑</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="3"
+                                            data-log_value="北京新天地">北京新天地</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="4" data-log_value="远洋山水">远洋山水</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="5" data-log_value="望京">望京</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="6" data-log_value="北京像素">北京像素</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="7"
+                                            data-log_value="草房站附近房源">草房站附近房源</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="8"
+                                            data-log_value="13号线地铁">13号线地铁</a>
+                                    </li>
+                                </div>
+                            </ul>
+                            <ul>
+                                <li class="hot-name">
+                                    <span class="hot-tips">推荐搜索</span>
+                                    <span class="del">清空</span>
                                 </li>
-                                <li>
-                                    <a href="" class="search-yfh">北京新天地</a>
+                                <div class="list">
+                                </div>
+                            </ul>
+                            <ul>
+                                <li class="hot-name">
+                                    <span class="hot-tips">热门搜索</span>
+                                    <span class="del">清空</span>
                                 </li>
-                                <li>
-                                    <a href="" class="search-yfh">远洋山水</a>
+                                <div class="list">
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="1" data-log_value="北京像素">北京像素</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="2" data-log_value="回龙观">回龙观</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="3" data-log_value="牡丹园">牡丹园</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="4" data-log_value="清河">清河</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="5" data-log_value="天通苑">天通苑</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="6" data-log_value="青年路">青年路</a>
+                                    </li>
+                                </div>
+                            </ul>
+                            <ul>
+                                <li class="hot-name">
+                                    <span class="hot-tips">热门搜索</span>
+                                    <span class="del">清空</span>
                                 </li>
-                                <li>
-                                    <a href="" class="search-yfh">望京</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">北京像素</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">草房站附近房源</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">13号线地铁</a>
-                                </li>
-                            </div>
-                        </ul>
-                        <ul class="search-fang">
-                            <li class="search-name">
-                                <span class="hout">推荐搜索</span>
-                                <span class="del">清空</span>
-                            </li>
-                            <div class="search-del">
-                                <li>
-                                    <a href="" class="search-yfh">北京像素</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">回龙观</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">牡丹园</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">清河</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">天通苑</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">青年路</a>
-                                </li>
-                            </div>
-                        </ul>
-                        <ul class="search-fang">
-                            <li class="search-name">
-                                <span class="hout">推荐搜索</span>
-                                <span class="del">清空</span>
-                            </li>
-                            <div class="search-del">
-                                <li>
-                                    <a href="" class="search-yfh">北苑家园望春园</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">后现代城</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">荣丰2008</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">天通西苑三区 </a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">苹果社区</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">华贸城</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">天通苑中苑</a>
-                                </li>
-                                <li>
-                                    <a href="" class="search-yfh">北京新天地</a>
-                                </li>
-                            </div>
-                        </ul>
+                                <div class="list">
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="1" data-log_value="北苑家园望春园">
+                                            北苑家园望春园
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="2" data-log_value="后现代城">
+                                            后现代城
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="3" data-log_value="荣丰2008">
+                                            荣丰2008
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="4" data-log_value="天通西苑三区 ">
+                                            天通西苑三区
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="5" data-log_value="苹果社区">
+                                            苹果社区
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="6" data-log_value="华贸城">
+                                            华贸城
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="7" data-log_value="天通苑中苑">
+                                            天通苑中苑
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="search-dons" data-log_index="8" data-log_value="北京新天地">
+                                            北京新天地
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!--  -->
-            <div class="header-wews">
-                <div class="header-sdsd">
+            <!-- 轮播展示的信息 -->
+            <div class="header-bottom">
+                <div class="house-num">
                     <i></i>
                     <ul>
-                        <li>北京在售二手房 89010 套</li>
+                        <li>北京在售二手房 89195 套</li>
                     </ul>
                 </div>
-                <div class="header-dnsh"></div>
+                <!-- 页面上面部分的左下角声明与保证书链接 -->
+                <div class="wrap-video">
+                </div>
             </div>
         </div>
     </div>
@@ -284,7 +315,9 @@
                             <img src="./images/The secondary2.02.jpg" alt="房子满两年 家庭名下唯一住房 南向高层两居室 保养好"
                                 title="房子满两年 家庭名下唯一住房 南向高层两居室 保养好">
                             <span class="vr_item"></span>
-                            <span class="goodhouse"><img src="./images/icon2.01.png"></span>
+                            <span class="goodhouse">
+                                <img src="./images/icon2.01.png">
+                            </span>
                             <div class="bottom">
                                 <div class="name">
                                     <p>朝阳·朝青</p>
@@ -292,7 +325,8 @@
                                 </div>
                                 <div class="info">
                                     2室1厅·99.6平米
-                                    <div class="price">560万
+                                    <div class="price">
+                                        560万
                                     </div>
                                 </div>
                             </div>
@@ -304,7 +338,9 @@
                         <div class="wra">
                             <img src="./images/The secondary2.04.jpg" alt="业主诚意卖，看房找链家，中国加油！" title="业主诚意卖，看房找链家，中国加油！">
                             <span class="vr_item"></span>
-                            <span class="goodhouse"><img src="./images/icon2.01.png"></span>
+                            <span class="goodhouse">
+                                <img src="./images/icon2.01.png">
+                            </span>
                             <div class="bottom">
                                 <div class="name">
                                     <p>朝阳·双井</p>
@@ -312,7 +348,8 @@
                                 </div>
                                 <div class="info">
                                     3室2厅·121.59平米
-                                    <div class="price">1190万
+                                    <div class="price">
+                                        1190万
                                     </div>
                                 </div>
                             </div>
@@ -325,7 +362,9 @@
                             <img src="./images/The secondary2.05.jpg" alt="南北通透，低楼层，采光充足，小区中间位置"
                                 title="南北通透，低楼层，采光充足，小区中间位置">
                             <span class="vr_item"></span>
-                            <span class="goodhouse"><img src="./images/icon2.01.png"></span>
+                            <span class="goodhouse">
+                                <img src="./images/icon2.01.png">
+                            </span>
                             <div class="bottom">
                                 <div class="name">
                                     <p>昌平·回龙观</p>
@@ -333,7 +372,8 @@
                                 </div>
                                 <div class="info">
                                     1室1厅·58.57平米
-                                    <div class="price">290万
+                                    <div class="price">
+                                        290万
                                     </div>
                                 </div>
                             </div>
@@ -346,7 +386,9 @@
                             <img src="./images/The secondary2.06.jpg" alt="南三环珠江骏景南向三居室，房本过5年"
                                 title="南三环珠江骏景南向三居室，房本过5年">
                             <span class="vr_item"></span>
-                            <span class="goodhouse"><img src="./images/icon2.01.png"></span>
+                            <span class="goodhouse">
+                                <img src="./images/icon2.01.png">
+                            </span>
                             <div class="bottom">
                                 <div class="name">
                                     <p>丰台·西罗园</p>
@@ -354,7 +396,8 @@
                                 </div>
                                 <div class="info">
                                     3室2厅·150.37平米
-                                    <div class="price">726万
+                                    <div class="price">
+                                        726万
                                     </div>
                                 </div>
                             </div>
@@ -437,31 +480,225 @@
         </div>
     </div>
 
-    <div>
-        <div>
-            <div>
+    <!-- 优选新房 -->
+    <div class="xinfeng">
+        <div class="xinfang-new">
+            <div class="xinfang-wrapper">
+                <div class="xinfang-name">优选新房</div>
                 <p>
-                    <a href=""></a>
+                    真实信息准确同步，楼盘动态一手掌握
+                    <a href="">更多北京新房</a>
                 </p>
             </div>
-            <div>
+            <div class="xinfang-list">
                 <ul>
                     <li>
-                        <a href="">
-                            <img src="" alt="">
-                            <div></div>
-                            <div>
+                        <a href="" title="中海寰宇时代">
+                            <img src="./images/new-house4.01.jpg" alt="中海寰宇时代" title="中海寰宇时代">
+                            <div class="xinfang-bg"></div>
+                            <div class="xinfang-title">
+                                中海寰宇时代
                                 <span>
-                                    <label></label>
+                                    <label>52449</label>
+                                    元/平
                                 </span>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a href=""></a>
+                        <a href="" title="金茂北京国际社区">
+                            <img src="./images/new-house4.02.jpg" alt="金茂北京国际社区" title="金茂北京国际社区">
+                            <div class="xinfang-bg"></div>
+                            <div class="xinfang-title">
+                                金茂北京国际社区
+                                <span>
+                                    <label>200</label>
+                                    元/套
+                                </span>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <a href=""></a>
+                        <a href="" title="中铁·诺德春风和院">
+                            <img src="./images/new-house4.03.jpg" alt="中铁·诺德春风和院" title="中铁·诺德春风和院">
+                            <div class="xinfang-bg"></div>
+                            <div class="xinfang-title">
+                                中铁·诺德春风和院
+                                <span>
+                                    <label>67702</label>
+                                    元/平
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 品质租房 -->
+    <div class="zufang">
+        <div class="zufang-wrapper">
+            <div class="zufang-zf">
+                <div class="zufang-name">品质租房</div>
+                <p>高品质租房体验，从贝壳开始
+                    <a href="">更多北京租房</a>
+                </p>
+            </div>
+            <div class="zufang-clear"></div>
+            <ul>
+                <li class="zufang-zf">
+                    <a href="" title="整租·林奥嘉园 2室1厅">
+                        <div class="zufang-wra">
+                            <img src="./images/Renting5.01.jpg" alt="整租·林奥嘉园 2室1厅" title="整租·林奥嘉园 2室1厅">
+                            <div class="zufang-bottom">
+                                <p class="zufang-ps">整租·林奥嘉园 2室1厅</p>
+                                <div class="zufang-tips">
+                                    <div class="zufang-info">奥林匹克公园 / 2室1厅2卫</div>
+                                    <div class="zufang-price">9300 元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="zufang-zf">
+                    <a href="" title="整租·林奥嘉园 2室1厅">
+                        <div class="zufang-wra">
+                            <img src="./images/Renting5.02.jpg" alt="整租·林奥嘉园 2室1厅" title="整租·林奥嘉园 2室1厅">
+                            <div class="zufang-bottom">
+                                <p class="zufang-ps">整租·林奥嘉园 2室1厅</p>
+                                <div class="zufang-tips">
+                                    <div class="zufang-info">奥林匹克公园 / 2室1厅2卫</div>
+                                    <div class="zufang-price">9300 元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="zufang-zf">
+                    <a href="" title="整租·林奥嘉园 2室1厅">
+                        <div class="zufang-wra">
+                            <img src="./images/Renting5.03.jpg" alt="整租·林奥嘉园 2室1厅" title="整租·林奥嘉园 2室1厅">
+                            <div class="zufang-bottom">
+                                <p class="zufang-ps">整租·林奥嘉园 2室1厅</p>
+                                <div class="zufang-tips">
+                                    <div class="zufang-info">奥林匹克公园 / 2室1厅2卫</div>
+                                    <div class="zufang-price">9300 元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="zufang-zf">
+                    <a href="" title="整租·林奥嘉园 2室1厅">
+                        <div class="zufang-wra">
+                            <img src="./images/Renting5.04.jpg" alt="整租·林奥嘉园 2室1厅" title="整租·林奥嘉园 2室1厅">
+                            <div class="zufang-bottom">
+                                <p class="zufang-ps">整租·林奥嘉园 2室1厅</p>
+                                <div class="zufang-tips">
+                                    <div class="zufang-info">奥林匹克公园 / 2室1厅2卫</div>
+                                    <div class="zufang-price">9300 元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 海外房产 -->
+
+    <div class="property">
+        <div class="property-wrapper">
+            <div class="property-fl">
+                <div class="property-name">海外房产</div>
+                <p>
+                    海量全球好房，畅享美好生活
+                    <a href="" class="property-fz">更多海外房产</a>
+                </p>
+            </div>
+            <div class="property-clear"></div>
+            <div class="property-xiala">
+                <ul>
+                    <li class="property-li">
+                        <a href="" title="奥兰多 瓦兰达棕榈别墅 Veranda Palms" target="_blank">
+                            <div class="property-wra">
+                                <div class="property-img">
+                                    <div class="property-jiuo">
+                                        <img src="./images/property6.01.png" alt="">
+                                        <p class="property-miejing">约47-72万美元</p>
+                                        <p class="property-rmbi">约333-511万元</p>
+                                    </div>
+                                    <div class="property-bottom">
+                                        <p class="property-country">美国·奥兰多</p>
+                                        <p class="property-bs">奥兰多 瓦兰达棕榈别墅 Veranda Palms</p>
+                                        <div class="property-tips">
+                                            <div class="property-info">6室/8-15室 265-592m²</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="property-li">
+                        <a href="" title="奥兰多 瓦兰达棕榈别墅 Veranda Palms" target="_blank">
+                            <div class="property-wra">
+                                <div class="property-img">
+                                    <div class="property-jiuo">
+                                        <img src="./images/property6.01.png" alt="">
+                                        <p class="property-miejing">约47-72万美元</p>
+                                        <p class="property-rmbi">约333-511万元</p>
+                                    </div>
+                                    <div class="property-bottom">
+                                        <p class="property-country">美国·奥兰多</p>
+                                        <p class="property-bs">奥兰多 瓦兰达棕榈别墅 Veranda Palms</p>
+                                        <div class="property-tips">
+                                            <div class="property-info">6室/8-15室 265-592m²</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="property-li">
+                        <a href="" title="奥兰多 瓦兰达棕榈别墅 Veranda Palms" target="_blank">
+                            <div class="property-wra">
+                                <div class="property-img">
+                                    <div class="property-jiuo">
+                                        <img src="./images/property6.01.png" alt="">
+                                        <p class="property-miejing">约47-72万美元</p>
+                                        <p class="property-rmbi">约333-511万元</p>
+                                    </div>
+                                    <div class="property-bottom">
+                                        <p class="property-country">美国·奥兰多</p>
+                                        <p class="property-bs">奥兰多 瓦兰达棕榈别墅 Veranda Palms</p>
+                                        <div class="property-tips">
+                                            <div class="property-info">6室/8-15室 265-592m²</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="property-li">
+                        <a href="" title="奥兰多 瓦兰达棕榈别墅 Veranda Palms" target="_blank">
+                            <div class="property-wra">
+                                <div class="property-img">
+                                    <div class="property-jiuo">
+                                        <img src="./images/property6.01.png" alt="">
+                                        <p class="property-miejing">约47-72万美元</p>
+                                        <p class="property-rmbi">约333-511万元</p>
+                                    </div>
+                                    <div class="property-bottom">
+                                        <p class="property-country">美国·奥兰多</p>
+                                        <p class="property-bs">奥兰多 瓦兰达棕榈别墅 Veranda Palms</p>
+                                        <div class="property-tips">
+                                            <div class="property-info">6室/8-15室 265-592m²</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
