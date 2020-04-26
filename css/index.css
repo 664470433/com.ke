@@ -762,8 +762,16 @@ width: 1150px;
     border-radius: 4px;
 }
 
+.zufang-zf p{
+    color: #9399a5;
+    font-size: 16px;
+    line-height: 22px;
+}
+
 .zufang-zf a{
     display:block;
+    color: #3072f6;
+    float: right;
     text-decoration: none;
 }
 
@@ -837,13 +845,14 @@ white-space: nowrap;
     font-weight: 600;
 }
 
-.property-name p{
+.property-fl p{
     color: #9399a5;
     font-size: 16px;
     line-height: 22px;
 }
 
-.property-name .property-fz{
+ .property-fl a {
+     float: right;
     color: #3072f6;
     float: right;
     font-weight: 600;
@@ -884,3 +893,5 @@ white-space: nowrap;
 .property-img{
     position: relative;
 }
+
+
