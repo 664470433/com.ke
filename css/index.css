@@ -18,133 +18,138 @@ img{
     vertical-align: top;
 }
 
-.daohang{
-    background: #000 url(../images/background1.01.jpg);
-width: 100%;
-height: 566px;
-background-position: center 0;
-padding-top: 34px;
-position: relative;
-}
-
-.fengmian{
-    padding: 0 50px;
-    margin: 0 auto;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-/* 头部导航 */
-
-/* 图标 */
-.toubu{
-    float: left;
-}
-
-.touding{
-margin-right: 30px;
-margin-top: 5px;
-display: inline-block;
-background-image: url(../images/The\ elves\ figure1.02.png);
-background-position: -72px 0;
-width: 94px;
-height: 34px;
-}
-
 span,a, a:hover {
     color: #fff;
     outline: none;
     text-decoration: none;
 }
 
-.dizhi{
-    display: inline=block;
+
+button, input, textarea {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    resize: none;
+    font-family: Hiragino Sans GB,Microsoft Yahei UI,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,Segoe UI,Tahoma,"\5B8B\4F53 b8b\4F53",SimSun,sans-serif;
+}
+
+
+.header{
+    background: #000 url(../images/background1.01.jpg) no-repeat;
+    width: 100%;
+    height: 566px;
+    padding-top: 34px;
+    background-position: center 0;
+    display: block;
+    position: relative;
+}
+
+.wrapper{
+    padding: 0 50px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* 导航栏 */
+
+.fl{
+    float: left;
+}
+
+.logo {
+    margin-right: 30px;
+    margin-top: 5px;
+    display: inline-block;
+    background-image: url(../images/The\ elves\ figure1.02.png);
+    background-position: -72px 0;
+    width: 94px;
+    height: 34px;
+}
+
+.exchange {
+    display: inline-block;
+    height: 24px;
     padding: 0 8px;
     line-height: 24px;
     text-align: center;
     color: #fff;
+    margin-top: 8px;
     cursor: pointer;
     border-radius: 14px;
     border: 2px solid #fff;
-    font-size: 12px; 
+    font-size: 12px;
 }
 
-.dizhi i{
-    background-image: url(../images/The\ elves\ figure1.02.png);
-    background-position: 33px -34px;
-    width: 10px;
-    height: 12px;
-    display: inline-block;
-    position: relative;
-    margin-right: 5px;
-    top: 1px;
-}
-
-/* 导航 */
-.dhl{
-    width: 970px;
+.fr{
     float: right;
 }
 
-.dhl-jli{
+.nava{
     line-height: 47px;
 }
 
-.sds ul{
-float: left;
+.nava ul{
+    float: left;
+    zoom: 1;
 }
 
-.dis{
+.fr .nav ul:after .fr .nav ul:before {
+    display: table;
+    content: "";
+}
+
+.toubu{
     height: 47px;
     float: left;
     position: relative;
 }
 
-.dis a{
+.toubu a{
     font-size: 16px;
     margin-left: 20px;
     font-weight: 700;
-    color: #fff;
+}
+.header.fr .nav ul:after {
+    clear: both;
 }
 
-.dis-yezhu{
-    width: 120px;
-    position: absolute;
-    top: 45px;
-    text-align: center;
-    opacity: 0;
+.header.fr .nav ul:after,
+.header.fr .nav ul:before {
+    display: table;
+    content: "";
 }
 
-.dis-yezhu dd{
-    position: absolute;
-    background: #fff;
-    border-radius: 4px;
-    text-align: center;
-    padding: 8px 0;
-    margin-left: -18px;
-    overflow: hidden;
-}
 
-.dis-yezhu dl{
-    line-height: 25px;
-    width: 120px;
-}
-
-.dis-yezhu a{
-    color: #101d37;
+.header.fr .nav ul li a {
     font-size: 16px;
-    margin-left: 0;
+    margin-left: 20px;
+    font-weight: 700;
 }
 
-.xiazai{
+.header.fr a,
+.header.fr span {
+    color: #fff;
+    text-decoration: none;
+}
+
+b, em, i, strong {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header.fr .nav ul li.hover .nav-list {
     width: 120px;
     position: absolute;
     top: 45px;
     text-align: center;
     opacity: 0;
+    transition: all .5s cubic-bezier(.34,1.21,.4,1);
+    transform-origin: 50% 0;
+    transform: translateY(0) scale(0);
 }
 
-.xiazai dd{
+.header.fr .nav ul li.hover dd {
     position: absolute;
     background: #fff;
     border-radius: 4px;
@@ -154,57 +159,74 @@ float: left;
     overflow: hidden;
 }
 
-.ruanjian{
+.header.fr .nav ul li.hover dd .sefas {
     padding: 52px 0 32px;
     cursor: default;
     width: 200px;
     color: #101d37;
 }
 
-.rj-ion{
+.header.fr .nav ul li.hover dd .sefas .icon {
     margin: 0 auto 12px;
-    background-image: url(../images/The\ elves\ figure1.02.png);
+    background-image: url(../images/The/elves/figure1.02.png);
     background-position: 0 0;
     width: 72px;
     height: 72px;
 }
 
-.title{
+.header .fr .nav ul li.hover dd .sefas .title {
     line-height: 25px;
     font-size: 18px;
     font-weight: 600;
 }
 
-.jia{
+.header.fr .nav ul li.hover dd .sefas .icon {
     line-height: 17px;
     font-size: 12px;
     margin-bottom: 30px;
 }
 
-.jia-img{
+.header.fr .nav ul li.hover dd .sefas .title{
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header.fr .nav ul li.hover dd .sefas .subTitle{
+    line-height: 17px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+
+.header.fr .nav ul li.hover dd .sefas .subTitle .img {
     width: 120px;
     height: 120px;
 }
 
-.sds ul:after{
+.header .fr .nav ul:after {
     clear: both;
-    display: table;
-    content:"";
 }
 
-/* 登录 */
+.header.fr .nav ul:after,
+.header.fr .nav ul:before {
+    display: table;
+    content: "";
+}
 
-.donglu{
+/* 登录栏 */
+
+.ti-hover{
     height: 47px;
     float: right;
     margin: 0 50px 0 55px;
 }
 
-.donglu-tup{
+.ti-hover .typeShowUser{
     float: right;
 }
 
-.donglu-tup i{
+.ti-hover .typeShowUser i{
     background-image: url(../images/The\ elves\ figure1.02.png);
     background-position: -72px -34px;
     width: 26px;
@@ -214,143 +236,46 @@ float: left;
     top: 5px;
     margin-right: 5px;
 }
-.donglu-come{
+
+.ti-hover .typeShowUser .welcome{
     font-size: 16px;
     font-weight: 700;
 }
 
-.donglu-btn{
+.btn-login{
     margin-left: 5px;
     font-size: 16px;
 }
 
-.donglu-dl{
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.donglu-dl span{
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.donglu-zhuce{
-    margin-left: 5px;
-    font-size: 16px;
-}
-
-.zhuce span{
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.cler{
-    display: block;
-}
-
-.cler::after{
-    content: ".";
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-    font-size: 0;
-    line-height: 0;
-}
-
-/* 搜索栏 */
-
-
-/* 搜索 */
-
-.header-wrap{
-    width: 1150px;
-    margin: 0 auto;
-}
-
-.header-ico{
-    margin-top: 116px;
-    text-align: left;
+.btn-login span{
     color: #fff;
-    font-size: 66px;
-    line-height: 68px;
-    font-weight: 600;
-    font-family: \\5FAE\8F6F\96C5\9ED1,Hiragino Sans GB;
-    letter-spacing: -2.4px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 47px;
 }
 
-.header-title{
-    font-size: 28px;
-    line-height: 28px;
-    height: 28px;
-    font-weight: 400;
-    margin-bottom: 18px;
-}
-
-.header-title span{
-    vertical-align: middle;
-}
-
-
-.header-wrapa{
-    width: 590px;
-    position: relative;
-}
-
-.header-cona{
-    position: relative;
-    margin-top: 36px;
-}
-/* 左下角图标 */
-
-
-/* 页面中部 */
-/* 二手房 */
-
-.ershoufang[data-component=recommendErshoufang] {
-    clear: both;
-    margin-bottom: 80px;
-}
-
-.ershoufang[data-component=recommendErshoufang] .wrapper {
-    overflow: hidden;
-    position: relative;
-    margin-top: 80px;
-    width: 1150px;
-}
-
-.wrapper {
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.fl {
-    float: left;
-}
-
-.ershoufang[data-component=recommendErshoufang] .fl .name {
-    font-size: 36px;
-    line-height: 50px;
-    color: #101d37;
-    font-weight: 600;
-}
-
-.ershoufang[data-component=recommendErshoufang] .fl p {
-    color: #9399a5;
-    width: 1150px;
+.welcome span{
     font-size: 16px;
-    line-height: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    line-height: 47px;
 }
 
-.ershoufang[data-component=recommendErshoufang] .fl p a {
-    color: #3072f6;
-    float: right;
-    font-weight: 600;
+.btn-register{
+    margin-left: 5px;
+    font-size: 16px;
 }
 
-.clear {
+.log{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.clear{
     display: block;
 }
+
 
 .clear:after {
     content: ".";
@@ -362,12 +287,338 @@ float: left;
     line-height: 0;
 }
 
-.ershoufang[data-component=recommendErshoufang] ul {
+/* 标题栏 */
+
+.header-wrap {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.wrap-ico {
+    margin-top: 116px;
+    text-align: left;
+    color: #fff;
+    font-size: 66px;
+    line-height: 68px;
+    font-weight: 600;
+    font-family: \\5FAE\8F6F\96C5\9ED1,Hiragino Sans GB;
+    letter-spacing: -2.4px;
+}
+
+.title_small {
+    font-size: 28px;
+    line-height: 28px;
+    height: 28px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.title_small span{
+    vertical-align: middle;
+}
+
+.search-box-wrap{
+    width: 590px;
+    position: relative;
+}
+
+.search-box-con{
+    position: relative;
+    margin-top: 36px;
+}
+
+.menu{
+    float: left;
+    height: 41px;
+}
+
+
+.header-wrap .search-box-wrap .search-box-con .menu li.check {
+    opacity: 1;
+}
+
+.header-wrap .search-box-wrap .search-box-con .menu li {
+    float: left;
+}
+
+
+.header-wrap .search-box-wrap .search-box-con .menu li span {
+    line-height: 25px;
+    height: 25px;
+}
+
+.header-wrap .search-box-wrap .search-box-con .menu li span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 20px 0 0;
+    height: 32px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.header-wrap .search-box-wrap .search-box-con .menu i {
+    left: 23px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    width: 0;
+    height: 0;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: 31px;
+    left: 23px;
+    border-bottom: 10px solid #fff;
+    z-index: 9;
+}
+
+/* 搜索栏 */
+
+.search {
+    clear: both;
+    position: relative;
+}
+
+.clear {
+    display: block;
+}
+
+
+.search .box{
+    background: #fff;
+    border-radius: 4px;
+    clear: both;
+    height: 50px;
+    box-shadow: 1px 0 5px rgba(0,0,0,.2);
+}
+
+.clear .searchBox{
+    position: relative;
+}
+
+.clear-lest{
+    padding-left: 20px;
+    width: 494px;
+    border: 0;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    float: left;
+}
+
+.clear-iled{
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+.clear-btnt{
+    background-color: #3072f6;
+    width: 76px;
+    height: 50px;
+    float: right;
+    border: 0;
+    display: block;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    -webkit-appearance: none;
+    transition: all .3s ease-in-out;
+}
+
+.clear-btnt+i{
+    background-image: url(../images/The\ elves\ figure1.02.png);
+    background-position: -98px -34px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+    right: 28px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.savesearch{
+    position: absolute;
+    right: 76px;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    width: auto;
+    padding-right: 30px;
+    display: block;
+}
+
+
+.suggest-wrap{
+    position: relative;
+    width: 514px;
+    border: 1px solid #000;
+    border-top: 0;
+    left: -1px;
+    display: none;
+}
+
+/* 复选的地方 */
+
+/* .sug-tips{
+    clear: both;
+    width: auto;
+    margin-top: 1px;
+    position: absolute;
+}
+
+.sug{
+    display: none;
+
+}
+
+.sug-tips .sug {
+    width: 514px;
+    background: #fff;
+    border: 1px solid #000;
+    border-top: 0;
+    position: relative;
+    left: -1px;
+    top: -1px;
+    z-index: 1002;
+}
+
+.hot-name{
+    background: #f4f7f9;
+    color: #849aae;
+}
+
+.sug-tips .sug .hot-name{
+    height: 35px;
+    line-height: 35px;
+    padding: 3px 20px;
+}
+
+.hot-name .hot-tips{
+    color: #849aae;
+    line-height: 35px;
+}
+
+.hot-name .del{
+    display: none;
+    text-align: right;
+    cursor: pointer;
+    opacity: .5;
+    float: right;
+}
+
+.list li{
+    height: 35px;
+    line-height: 35px;
+    padding: 3px 20px;
+}
+
+.list li a{
+    color: #101d37;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+} */
+
+
+/* 左下角栏 */
+
+.header-bottom{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    bottom: 20px;
+}
+
+.header-bottom .house-num{
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+ .header-bottom .house-num i {
+    float: left;
+    margin-top: 4px;
+    vertical-align: middle;
+    background-image: url(../images/The\ elves\ figure1.02.png);
+    background-position: -117px -34px;
+    width: 16px;
+    height: 13px;
+}
+
+.header-bottom .house-num ul {
+    margin-left: 5px;
+    position: relative;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+}
+
+
+
+/* 页面中部 二手房列表板块 */
+
+
+.ershoufang{
+    clear: both;
+    margin-bottom: 80px;
+}
+
+
+.esf-wppas{
+    overflow: hidden;
+    position: relative;
+    top: 80px;
+    margin-top: 80px;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+.esf-fl{
+    float: left;
+}
+
+
+.esf-name{
+    font-size: 36px;
+    line-height: 50px;
+    color: #101d37;
+    font-weight: 600;
+}
+
+.esf-fl p{
+    color: #9399a5;
+    width: 1150px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.esf-fl p .esf-gd{
+    color: #3072f6;
+    float: right;
+    font-weight: 600;
+}
+
+.clear{
+    display: block;
+}
+
+.esf-wppas ul{
     margin-top: 26px;
     width: 2100px;
 }
 
-.ershoufang[data-component=recommendErshoufang] li {
+.esf-wppas ul .maidian-detail{
     position: relative;
     width: 265px;
     height: 315px;
@@ -376,23 +627,18 @@ float: left;
     border-radius: 5px;
 }
 
-.ershoufang[data-component=recommendErshoufang] li a {
+.esf-wppas ul .maidian-detail{
     display: block;
 }
 
-.ershoufang[data-component=recommendErshoufang] li img {
+.esf-wra img{
     border-radius: 4px;
     width: 265px;
     height: 205px;
 }
 
-img {
-    border: 0;
-    vertical-align: top;
-}
-
-.ershoufang[data-component=recommendErshoufang] li .vr_item {
-    background-image: url(../img/2.03.png);
+.vr_item{
+    background-image: url(../images/icon2.03.png);
     background-size: 45px 45px;
     width: 45px;
     height: 45px;
@@ -401,7 +647,7 @@ img {
     bottom: 118px;
 }
 
-.ershoufang[data-component=recommendErshoufang] li .goodhouse {
+.goodhouse{
     position: absolute;
     left: 0;
     top: 0;
@@ -409,19 +655,19 @@ img {
     height: 30px;
 }
 
-.ershoufang[data-component=recommendErshoufang] li .goodhouse img {
+.goodhouse img{
     width: 86px;
     height: 30px;
     border-radius: 0;
 }
 
-.ershoufang[data-component=recommendErshoufang] li .bottom {
+.esf-wppas ul li .bottom {
     width: 265px;
     max-height: 92px;
     background: #fff;
 }
 
-.ershoufang[data-component=recommendErshoufang] li .bottom .name {
+.esf-wppas ul li .bottom .name{
     margin-top: 16px;
     font-size: 18px;
     font-weight: 700;
@@ -429,13 +675,13 @@ img {
     color: #222;
 }
 
-.ershoufang[data-component=recommendErshoufang] li .bottom .name p {
+.esf-wppas ul li .bottom .name p{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
-.ershoufang[data-component=recommendErshoufang] li .bottom .info {
+.info{
     margin-top: 10px;
     font-size: 12px;
     color: #616669;
@@ -443,455 +689,18 @@ img {
     overflow: hidden;
 }
 
-.ershoufang[data-component=recommendErshoufang] li .bottom .info .price {
+.info .price{
     font-weight: 700;
     float: right;
     font-size: 16px;
     color: #fa5741;
 }
 
-/* 小区 */
 
-.xiaoqu{
+/* 页面中部 为您推荐小区板块  */
+
+.xiaoqu-list{
     width: 100%;
     clear: both;
     margin-bottom: 80px;
 }
-
-.xiaoqu-eddh{
-    width: 1150px;
-    margin: 0 auto;
-}
-
-.xiaoqu-bdeh{
-    margin-bottom: 25px;
-    float: left;
-}
-
-.xiaoqu-jisds{
-    font-size: 36px;
-    line-height: 50px;
-    color: #101d37;
-    font-weight: 600;
-}
-
-.xiaoqu .xiaoqu-bdeh p{
-font-size: 16px;
-line-height: 22px;
-color: #9399a5;
-width: 1150px;
-
-}
-
-.xiaoqu .xiaoqu-bdeh p a {
-    color: #3072f6;
-    float: right;
-    font-weight: 600;
-}
-
-.xiaoqu-yyshui{
-    clear: both;
-    width: 1150px;
-    overflow: hidden;
-    height: 336px;
-    padding-top: 0;
-    position: relative;
-}
-
-.xiaoqu-yyshui ul{
-    position: absolute;
-    width: 2500px;
-    top: 0;
-
-}
-
-.xiaoqu-bti{
-    float: left;
-    width: 343px;
-    margin-right: 30px;
-}
-
-.xiaoqu-yyshui ul li a{
-    width: 346px;
-    display: inline-block;
-    text-decoration: none;
-    border-radius:4px;
-    overflow: hidden;
-}
-
-.xiaoqu-img{
-    width: 100%;
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.xiaoqu-img img{
-    width: 363px;
-    height: 272px;
-    transition: .7s ease-in-out;
-}
-
-.xiaoqu-lide{
-    position: relative;
-    width: 364px;
-    margin-top: 15px;
-}
-
-.xiaoqu-dhfb{
-    overflow: hidden;
-}
-
-.xiaoqu-dsdf{
-    font-size: 18px;
-    line-height: 25px;
-    color: #101d37;
-    float: left;
-    font-weight: 600;
-    max-width: 260px;
-    height: 25px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.xiaoqu-jihu{
-    color: #fa5741;
-    font-size: 16px;
-    line-height: 25px;
-    float: right;
-    font-weight: 600;
-}
-
-.xiaoqu-jihu label{
-    color: #fa5741;
-    font-size: 16px;
-    line-height: 25px;
-    font-weight: 600;
-}
-
-.xiaoqu-year{
-    margin-top: 5px;
-    color: #9399a5;
-    font-size: 12px;
-    line-height: 20px;
-}
-
-.xiaoqu-year span{
-    color: #9399a5;
-    font-size: 12px;
-    line-height: 20px;
-}
-
-
-/* 优选新房 */
-
-.xinfang{
-    width: 100%;
-    height: 372px;
-    clear: both;
-    margin-bottom: 80px;
-}
-
-.xinfang-new{
-    width: 1150px;
-    margin: 0 auto;
-}
-
-.xinfang-wrapper{
-    margin-bottom: 25px;
-    float: left;
-}
-
-.xinfang-name{
-    font-size: 36px;
-    line-height: 50px;
-    color: #101d37;
-    font-weight: 600;
-}
-
-.xinfang-wrapper p{
-    float: left;
-    width: 1150px;
-    color: #9399a5;
-    line-height: 22px;
-    font-size: 16px;
-}
-
-.xinfang-wrapper p a{
-    color: #3072f6;
-    float: right;
-    font-weight: 600;
-}
-
-.xinfang-list{
-    clear: both;
-    width: 1150px;
-    overflow: hidden;
-    height: 272px;
-    position: relative;
-}
-
-.xinfang-list ul{
-    position: absolute;
-    width: 25000px;
-    top: 0;
-}
-
-.xinfang-list ul li{
-    float: left;
-    margin-right: 30px;
-}
-
-.xinfang-list ul li a {
-    width: 363px;
-    height: 272px;
-    display: block;
-    border-radius: 4px;
-    font-weight: 600;
-    position: relative;
-    overflow: hidden;
-}
-
-.xinfang-list ul li a img{
-    border-radius: 4px;
-    width: 363px;
-    height: 272px;
-    transition: .7s ease-in-out;
-}
-
-.xinfang-bg{
-    opacity: 3;
-    width: 363px;
-    height: 272px;
-    position: absolute;
-    left: 0;
-    bottom:0;
-}
-
-.xinfang-title{
-    width: 200px;
-    font-size: 24px;
-    color: #fff;
-    position: absolute;
-    padding: 82px;
-    bottom: 30px;
-
-}
-
-.xinfang-title span{
-    font-size: 14px;
-    display:block;
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
-}
-
-.xinfang-title span label{
-    color: #fff;
-    position: relative;
-}
-
-
-
-/* 品质租房 */
-
-
-.zufang{
-    display: block;
-    clear: both;
-    margin-bottom: 80px;
-}
-
-.zufang-wrapper{
-    overflow: hidden;
-    position: relative;
-    margin-top: 80px;
-    width: 1150px;
-    margin: 0 auto;
-}
-
-.zufang-zf{
-    float: left;
-}
-
-.zufang-name{
-    font-size: 36px;
-    line-height: 50px;
-    color: #101d37;
-    font-weight: 600;
-}
-
-.zufang-name p{
-    color: #9399a5;
-    width: 1150px;
-    font-size: 16px;
-    line-height: 22px;
-}
-
-.zufang-name p a {
-    color: #3072f6;
-    float: right;
-    font-weight: 600;
-}
-
-.zufang-clear{
-    display: block;
-}
-
-.zufang-clear:after{
-    content: ".";
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-    font-size: 0;
-    line-height: 0;
-}
-
-.zufang-wrapper ul{
-    margin-top: 26px;
-    width: 2100px;
-}
-
-.zufang-zf{
-    position: relative;
-    width: 265px;
-    height: 315px;
-    float: left;
-    margin-right: 30px;
-    border-radius: 4px;
-}
-
-.zufang-zf p{
-    color: #9399a5;
-    font-size: 16px;
-    line-height: 22px;
-}
-
-.zufang-zf a{
-    display:block;
-    color: #3072f6;
-    float: right;
-    text-decoration: none;
-}
-
-.zufang-wra img{
-width: 265px;
-height: 205px;
-border-radius: 4px;
-}
-
-.zufang-bottom{
-    width: 265px;
-    max-height: 92px;
-    background: #fff;
-}
-
-.zufang-ps{
-    font-size: 18px;
-    color: #101d37;
-    line-height: 50px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-top: 15px;
-    font-weight: 600;
-    white-space: nowrap;
-}
-
-.zufang-tips{
-    overflow: hidden;
-    margin-top: 5px;
-    line-height: 20px;
-}
-
-.zufang-info{
-float: left;
-color: #9399a5;
-font-size: 12px;
-max-width: 210px;
-overflow: hidden;
-text-overflow: ellipsis;
-white-space: nowrap;
-}
-
-.zufang-price{
-    float: right;
-    color: #fa5741;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-/* 海外房产 */
-
-.property{
-    display: block;
-}
-
-.property-wrapper{
-    overflow: hidden;
-    position: relative;
-    margin: 80px;
-    width: 1150px;
-}
-
-.property-fl{
-    float: left;
-}
-
-.property-name{
-    font-size: 36px;
-    line-height: 50px;
-    color: #101d37;
-    font-weight: 600;
-}
-
-.property-fl p{
-    color: #9399a5;
-    font-size: 16px;
-    line-height: 22px;
-}
-
- .property-fl a {
-     float: right;
-    color: #3072f6;
-    float: right;
-    font-weight: 600;
-}
-
-.property-clear{
-    display: block;
-}
-
-.property-clear:after{
-    content: ".";
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-    font-size: 0;
-    line-height: 0;
-}
-
-.property-xiala ul{
-    margin-top: 26px;
-    width: 2100px;
-}
-
-.property-li{
-    position: relative;
-    width: 265px;
-    height: 315px;
-    float: left;
-    margin-right: 30px;
-    border-radius: 4px;
-}
-
-.property-li a{
-    display: block;
-}
-
-.property-img{
-    position: relative;
-}
-
-
