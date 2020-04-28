@@ -1,0 +1,145 @@
+html,body,div,ul,li,ol,p,dd,dl{
+    margin: 0;
+    padding: 0;
+}
+
+ul,li,ol,dd,dl{
+    list-style: none;
+
+}
+
+b, em, i, strong {
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    border: 0;
+    vertical-align: top;
+}
+
+span,a, a:hover {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+
+button, input, textarea {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    resize: none;
+    font-family: Hiragino Sans GB,Microsoft Yahei UI,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,Segoe UI,Tahoma,"\5B8B\4F53 b8b\4F53",SimSun,sans-serif;
+}
+
+
+/* 头部导航 */
+
+
+.banner {
+    display: block;
+    background-color: #101d37;
+    line-height: 38px;
+    font-size: 12px;
+}
+
+
+.banner .container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+.banner .container .channelList {
+    display: table-cell;
+    white-space: nowrap;
+}
+
+
+.banner .container .channelList li {
+    display: inline-block;
+    margin-right: 21.5px;
+    position: relative;
+}
+
+
+.banner .container .channelList li a {
+    color: #a9abab;
+    text-decoration: none;
+}
+
+
+.banner .container .channelList li .appQRCode {
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: -32px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #101d37;
+    box-shadow: 0 0 8px rgba(0,0,0,.7);
+    padding: 12px;
+    z-index: 1;
+}
+
+
+.banner .container .channelList li .appQRCode img {
+    width: 90px;
+    height: 90px;
+}
+
+
+.banner .container .banner-right {
+    display: table-cell;
+    width: 1000px;
+    text-align: right;
+    color: #fff;
+}
+
+
+.banner .container .banner-right .login {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.banner .container .banner-right .login i {
+    vertical-align: -1px;
+    display: inline-block;
+    background-image: url(../images/house/jingling.png);
+    background-position: -411px -221px;
+    width: 12px;
+    height: 12px;
+    margin-right: 9px;
+}
+
+
+.banner .container .banner-right a {
+    color: #fff;
+}
+
+
+.banner .container .banner-right .phone {
+    display: inline-block;
+}
+
+
+.banner .container .banner-right .phone i {
+    vertical-align: -1px;
+    display: inline-block;
+    background-image: url(../images/house/jingling.png);
+    background-position: -447px -221px;
+    width: 12px;
+    height: 12px;
+    margin-right: 9px;
+}
+
+
+.banner .container .banner-right {
+    display: table-cell;
+    width: 1000px;
+    text-align: right;
+    color: #fff;
+}
