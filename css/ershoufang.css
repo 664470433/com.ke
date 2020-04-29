@@ -33,6 +33,12 @@ button, input, textarea {
     font-family: Hiragino Sans GB,Microsoft Yahei UI,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,Segoe UI,Tahoma,"\5B8B\4F53 b8b\4F53",SimSun,sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: 400;
+}
 
 /* 头部导航 */
 
@@ -142,4 +148,284 @@ button, input, textarea {
     width: 1000px;
     text-align: right;
     color: #fff;
+}
+
+
+/* 搜索栏 */
+
+
+.header {
+    background-color: #f5f5f6;
+    line-height: 1;
+    padding: 30px 0 26px;
+}
+
+
+.menu {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+.menu .menuLeft {
+    display: inline-block;
+    width: 84%;
+}
+
+
+.menu .menuLeft .logo {
+    display: inline-block;
+    background-image: url(../images/house/jingling.png);
+    background-position: -385px -39px;
+    width: 162px;
+    height: 32px;
+    vertical-align: middle;
+    margin-top: -6px;
+}
+
+
+.menu .menuLeft .typeList {
+    display: inline-block;
+    margin-left: 34px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.menu .menuLeft .typeList li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.menu .menuLeft .typeList li.selected a {
+    color: #3072f6;
+}
+
+.menu .menuLeft .typeList li a {
+    color: #101d37;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.menu .app {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+}
+
+
+.menu .app a {
+    color: #323333;
+    font-size: 16px;
+    position: relative;
+}
+
+
+.menu .app a i {
+    display: inline-block;
+    background-image: url(../images/house/jingling.png);
+    background-position: -399px -220px;
+    width: 14px;
+    height: 18px;
+    margin-right: 10px;
+    vertical-align: -3px;
+}
+
+
+.menu .app a .layer-qrcode {
+    position: absolute;
+    left: -50px;
+    top: 20px;
+    width: 140px;
+    padding: 28px;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgba(13,4,9,.2);
+    line-height: 1;
+    text-align: center;
+    font-size: 12px;
+    z-index: 1;
+    display: none;
+}
+
+
+.menu .app a .layer-qrcode .icon-qrcode {
+    width: 124px;
+    height: 124px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+.menu .app a .layer-qrcode .txt {
+    margin-top: 22px;
+    font-weight: 700;
+    color: #101d37;
+    display: block;
+}
+
+
+.menu .app a .layer-qrcode .sub-txt {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #9399a5;
+    display: block;
+}
+
+
+.header .search {
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+.header .search .input {
+    display: inline-block;
+    line-height: 45px;
+    font-size: 14px;
+    color: #101d37;
+    background-color: #fff;
+    position: relative;
+}
+
+
+form {
+    margin: 0;
+}
+
+
+.header .search .input input {
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 710px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 22px;
+    border: 0;
+    box-shadow: 0 1px 2px -1px rgba(0,0,0,.2);
+    border-radius: 2px;
+}
+
+
+.header .search .input .inputRightPart {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.header .search .input .inputRightPart .save {
+    text-align: right;
+    display: none;
+    cursor: pointer;
+}
+
+
+.header .search .input .inputRightPart .save {
+    text-align: right;
+    display: none;
+    cursor: pointer;
+}
+
+
+.header .search .input .inputRightPart .save .downArrow {
+    display: inline-block;
+    background-image: url(../images/house/jingling.png);
+    background-position: -524px -91px;
+    width: 8px;
+    height: 4px;
+    vertical-align: 3px;
+    margin-left: 8px;
+}
+
+
+.header .search .input .inputRightPart .searchButton {
+    cursor: pointer;
+    width: 50px;
+    height: 45px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.header .search .input .inputRightPart .searchButton i {
+    display: inline-block;
+    vertical-align: -4px;
+    background-image: url(../images/house/jingling.png);
+    background-position: -435px -185px;
+    width: 17px;
+    height: 17px;
+}
+
+
+.header .search .input .searchMsg {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 44px;
+    max-height: 600px;
+    overflow: auto;
+    width: 710px;
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px -1px rgba(0,0,0,.5);
+    z-index: 1;
+}
+
+
+/* 地方 */
+
+
+.m-filter[data-component=C_filter] {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 26px;
+    padding: 25px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    background-color: #fbfbfb;
+    box-shadow: 0 1px 2px -1px rgba(0,0,0,.2);
+    font-size: 12px;
+    line-height: 1;
+    position: relative;
+}
+
+
+.m-filter[data-component=C_filter] dl {
+    overflow: hidden;
+}
+
+
+.m-filter[data-component=C_filter] dt {
+    float: left;
+    width: 4.5%;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+
+.m-filter[data-component=C_filter] dd {
+    float: right;
+    width: 95.5%;
+}
+
+
+.m-filter[data-component=C_filter] .position dl:first-child a.selected {
+    color: #3072f6;
+}
+
+
+.m-filter[data-component=C_filter] .position dl:first-child a.selected .arrow {
+    background-image: url(../images/house/jingling.png);
+    background-position: -549px -85px;
+    display: inline-block;
+    margin-left: 9px;
+    vertical-align: 2px;
+    width: 10px;
+    height: 5px;
 }

@@ -69,11 +69,9 @@
                 <div class="banner-right">
                     <div class="login" id="userInfoContainer">
                         <i></i>
-                        <a href=""
-                            id="loginBtn" rel="nofollow">登录</a>
+                        <a href="" id="loginBtn" rel="nofollow">登录</a>
                         /
-                        <a href=""
-                            id="registerBtn" rel="nofollow">注册</a>
+                        <a href="" id="registerBtn" rel="nofollow">注册</a>
                     </div>
                     <div class="phone">
                         <i></i>
@@ -81,6 +79,538 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- 搜索栏 -->
+        <div class="header">
+            <div class="menu">
+                <div class="menuLeft">
+                    <a href="" class="logo"></a>
+                    <ul class="typeList">
+                        <li class="selected">
+                            <a href="" title="北京在售二手房">在售</a>
+                        </li>
+                        <li>
+                            <a href="" title="北京成交二手房">成交</a>
+                        </li>
+                        <li>
+                            <a href="" title="北京小区二手房">小区</a>
+                        </li>
+                        <li>
+                            <a href="" title="北京贝壳指数二手房">贝壳指数</a>
+                        </li>
+                        <li>
+                            <a href="" title="北京地图找房二手房" target="_blank">地图找房</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="app">
+                    <a href="" target="_blank">
+                        <i></i>
+                        下载贝壳找房APP
+                        <span class="layer-qrcode">
+                            <span class="icon-qrcode">
+                                <img width="124" src="./images/house/Qr code1.03.png" alt="下载贝壳找房APP">
+                            </span>
+                            <span class="txt">贝壳找房APP</span>
+                            <span class="sub-txt">找房大平台</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="search">
+                <div class="input" data-click-event="WebClick" data-action="source_type=PC小区列表搜索框点击">
+                    <form id="searchForm">
+                        <input type="text" id="searchInput" placeholder="请输入区域或小区名开始找房">
+                        <div class="inputRightPart">
+                            <div class="save" id="savedSearchMsg">
+                                <span id="savedSearchCount">0</span>
+                                条已保存搜索
+                                <span id="savedSearchArrow" class="downArrow"></span>
+                            </div>
+                            <button type="submit" class="searchButton">&nbsp;<i></i>&nbsp;</button>
+                        </div>
+                    </form>
+                    <div class="searchMsg" id="searchMsgContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="m-filter" data-component="C_filter">
+            <div class="position">
+                <dl>
+                    <h2>
+                        <dt title="北京在售位置">位置</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/" id="areaTab" class="selected" title="北京二手房">
+                            区域<span class="arrow"></span>
+                        </a>
+                        <a href="/ditiefang/" id="subwayTab" title="北京地铁找房">
+                            地铁线<span class="arrow"></span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <!-- 区域 -->
+                        <div data-role="ershoufang">
+                            <div>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/dongcheng/"
+                                    title="北京东城在售二手房 ">东城</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/xicheng/"
+                                    title="北京西城在售二手房 ">西城</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/chaoyang/"
+                                    title="北京朝阳在售二手房 ">朝阳</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/haidian/"
+                                    title="北京海淀在售二手房 ">海淀</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/fengtai/"
+                                    title="北京丰台在售二手房 ">丰台</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/shijingshan/"
+                                    title="北京石景山在售二手房 ">石景山</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/tongzhou/"
+                                    title="北京通州在售二手房 ">通州</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/changping/"
+                                    title="北京昌平在售二手房 ">昌平</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/daxing/"
+                                    title="北京大兴在售二手房 ">大兴</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/yizhuangkaifaqu/"
+                                    title="北京亦庄开发区在售二手房 ">亦庄开发区</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/shunyi/"
+                                    title="北京顺义在售二手房 ">顺义</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/fangshan/"
+                                    title="北京房山在售二手房 ">房山</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/mentougou/"
+                                    title="北京门头沟在售二手房 ">门头沟</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/pinggu/"
+                                    title="北京平谷在售二手房 ">平谷</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/huairou/"
+                                    title="北京怀柔在售二手房 ">怀柔</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/miyun/"
+                                    title="北京密云在售二手房 ">密云</a>
+                                <a class=" CLICKDATA" data-click-evtid="12339" data-click-event="WebModuleClick"
+                                    data-action="source_type=PC小区列表筛选条件点击" href="/ershoufang/yanqing/"
+                                    title="北京延庆在售二手房 ">延庆</a>
+                            </div>
+                        </div>
+                        <!-- 地铁 -->
+                        <div data-role="ditiefang" style="display:none;">
+                            <div>
+                                <a href="/ditiefang/li11000002613368/" title="北京新机场线在售二手房 ">新机场线</a>
+                                <a href="/ditiefang/li1120045335107689/" title="北京大兴机场线在售二手房 ">大兴机场线</a>
+                                <a href="/ditiefang/li647/" title="北京1号线在售二手房 ">1号线</a>
+                                <a href="/ditiefang/li648/" title="北京2号线在售二手房 ">2号线</a>
+                                <a href="/ditiefang/li656/" title="北京4号线大兴线在售二手房 ">4号线大兴线</a>
+                                <a href="/ditiefang/li649/" title="北京5号线在售二手房 ">5号线</a>
+                                <a href="/ditiefang/li46107350/" title="北京6号线在售二手房 ">6号线</a>
+                                <a href="/ditiefang/li46537785/" title="北京7号线在售二手房 ">7号线</a>
+                                <a href="/ditiefang/li659/" title="北京8号线在售二手房 ">8号线</a>
+                                <a href="/ditiefang/li1120037074696977/" title="北京8号线南段在售二手房 ">8号线南段</a>
+                                <a href="/ditiefang/li43145267/" title="北京9号线在售二手房 ">9号线</a>
+                                <a href="/ditiefang/li651/" title="北京10号线在售二手房 ">10号线</a>
+                                <a href="/ditiefang/li652/" title="北京13号线在售二手房 ">13号线</a>
+                                <a href="/ditiefang/li46461179/" title="北京14号线东段在售二手房 ">14号线东段</a>
+                                <a href="/ditiefang/li1110790465974155/" title="北京14号线西段在售二手房 ">14号线西段</a>
+                                <a href="/ditiefang/li43143633/" title="北京15号线在售二手房 ">15号线</a>
+                                <a href="/ditiefang/li1116796246117001/" title="北京16号线在售二手房 ">16号线</a>
+                                <a href="/ditiefang/li653/" title="北京八通线在售二手房 ">八通线</a>
+                                <a href="/ditiefang/li43144847/" title="北京亦庄线在售二手房 ">亦庄线</a>
+                                <a href="/ditiefang/li43144993/" title="北京昌平线在售二手房 ">昌平线</a>
+                                <a href="/ditiefang/li43145111/" title="北京房山线在售二手房 ">房山线</a>
+                                <a href="/ditiefang/li654/" title="北京机场线在售二手房 ">机场线</a>
+                                <a href="/ditiefang/li1120027908698063/" title="北京燕房线在售二手房 ">燕房线</a>
+                                <a href="/ditiefang/li1120028159353771/" title="北京s1线在售二手房 ">s1线</a>
+                                <a href="/ditiefang/li1120028158304639/" title="北京西郊线在售二手房 ">西郊线</a>
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="list-more">
+                <dl class=" hasmore">
+                    <h2>
+                        <dt title="北京价格在售二手房">价格</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/p1/">
+                            <span class="checkbox "></span>
+                            <span class="name">200万以下</span>
+                        </a>
+                        <a href="/ershoufang/p2/">
+                            <span class="checkbox "></span>
+                            <span class="name">200-250万</span>
+                        </a>
+                        <a href="/ershoufang/p3/">
+                            <span class="checkbox "></span>
+                            <span class="name">250-300万</span>
+                        </a>
+                        <a href="/ershoufang/p4/">
+                            <span class="checkbox "></span>
+                            <span class="name">300-400万</span>
+                        </a>
+                        <a href="/ershoufang/p5/">
+                            <span class="checkbox "></span>
+                            <span class="name">400-500万</span>
+                        </a>
+                        <a href="/ershoufang/p6/">
+                            <span class="checkbox "></span>
+                            <span class="name">500-800万</span>
+                        </a>
+                        <a href="/ershoufang/p7/">
+                            <span class="checkbox "></span>
+                            <span class="name">800-1000万</span>
+                        </a>
+                        <a href="/ershoufang/p8/">
+                            <span class="checkbox "></span>
+                            <span class="name">1000万以上</span>
+                        </a>
+                        <span class="customFilter mt" data-role="price">
+                            <input type="text" role="minValue" value="">
+                            <span>-</span>
+                            <input type="text" role="maxValue" value="">&nbsp;
+                            <span>万</span>
+                            <button class="btn-range hide" data-url="/ershoufang/bp{min}ep{max}">确定</button>
+                        </span>
+                        <span class="btn-showmore">+ 更多及自定义</span>
+                    </dd>
+                </dl>
+                <dl class=" ">
+                    <h2>
+                        <dt title="北京房型在售二手房">房型</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/l1/">
+                            <span class="checkbox "></span>
+                            <span class="name">一室</span>
+                        </a>
+                        <a href="/ershoufang/l2/">
+                            <span class="checkbox "></span>
+                            <span class="name">二室</span>
+                        </a>
+                        <a href="/ershoufang/l3/">
+                            <span class="checkbox "></span>
+                            <span class="name">三室</span>
+                        </a>
+                        <a href="/ershoufang/l4/">
+                            <span class="checkbox "></span>
+                            <span class="name">四室</span>
+                        </a>
+                        <a href="/ershoufang/l5/">
+                            <span class="checkbox "></span>
+                            <span class="name">五室及以上</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class=" hasmore">
+                    <h2>
+                        <dt title="北京建筑面积在售二手房">建筑面积</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/a1/">
+                            <span class="checkbox "></span>
+                            <span class="name">50㎡以下</span>
+                        </a>
+                        <a href="/ershoufang/a2/">
+                            <span class="checkbox "></span>
+                            <span class="name">50-70㎡</span>
+                        </a>
+                        <a href="/ershoufang/a3/">
+                            <span class="checkbox "></span>
+                            <span class="name">70-90㎡</span>
+                        </a>
+                        <a href="/ershoufang/a4/">
+                            <span class="checkbox "></span>
+                            <span class="name">90-110㎡</span>
+                        </a>
+                        <a href="/ershoufang/a5/">
+                            <span class="checkbox "></span>
+                            <span class="name">110-130㎡</span>
+                        </a>
+                        <a href="/ershoufang/a6/">
+                            <span class="checkbox "></span>
+                            <span class="name">130-150㎡</span>
+                        </a>
+                        <a href="/ershoufang/a7/">
+                            <span class="checkbox "></span>
+                            <span class="name">150-200㎡</span>
+                        </a>
+                        <a href="/ershoufang/a8/">
+                            <span class="checkbox "></span>
+                            <span class="name">200㎡以上</span>
+                        </a>
+                        <span class="customFilter mt" data-role="area">
+                            <input type="text" role="minValue" value="">
+                            <span>-</span>
+                            <input type="text" role="maxValue" value="">&nbsp;
+                            <span>平</span>
+                            <button class="btn-range hide" data-url="/ershoufang/ba{min}ea{max}">确定</button>
+                        </span>
+                        <span class="btn-showmore">+ 更多及自定义</span>
+                    </dd>
+                </dl>
+                <dl class=" hasmore">
+                    <h2>
+                        <dt title="北京房源特色在售二手房">房源特色</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/tt9/">
+                            <span class="checkbox "></span>
+                            <span class="name">必看好房</span>
+                        </a>
+                        <a href="/ershoufang/mw1/">
+                            <span class="checkbox "></span>
+                            <span class="name">满五年</span>
+                        </a>
+                        <a href="/ershoufang/ty1/">
+                            <span class="checkbox "></span>
+                            <span class="name">满两年</span>
+                        </a>
+                        <a href="/ershoufang/su1/">
+                            <span class="checkbox "></span>
+                            <span class="name">近地铁</span>
+                        </a>
+                        <a href="/ershoufang/tt8/">
+                            <span class="checkbox "></span>
+                            <span class="name">VR房源</span>
+                        </a>
+                        <a href="/ershoufang/tt10/">
+                            <span class="checkbox "></span>
+                            <span class="name">VR看装修</span>
+                        </a>
+                        <a href="/ershoufang/tt2/">
+                            <span class="checkbox "></span>
+                            <span class="name">7日新上</span>
+                        </a>
+                        <a href="/ershoufang/tt4/">
+                            <span class="checkbox "></span>
+                            <span class="name">随时看房</span>
+                        </a>
+                        <span class="btn-showmore">+ 展开全部</span>
+                    </dd>
+                </dl>
+                <dl class="hide " data-role="hide-row">
+                    <h2>
+                        <dt title="北京朝向在售二手房">朝向</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/f5/">
+                            <span class="checkbox "></span>
+                            <span class="name">南北</span>
+                        </a>
+                        <a href="/ershoufang/f2/">
+                            <span class="checkbox "></span>
+                            <span class="name">朝南</span>
+                        </a>
+                        <a href="/ershoufang/f1/">
+                            <span class="checkbox "></span>
+                            <span class="name">朝东</span>
+                        </a>
+                        <a href="/ershoufang/f4/">
+                            <span class="checkbox "></span>
+                            <span class="name">朝北</span>
+                        </a>
+                        <a href="/ershoufang/f3/">
+                            <span class="checkbox "></span>
+                            <span class="name">朝西</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="hide " data-role="hide-row">
+                    <h2>
+                        <dt title="北京楼层在售二手房">楼层</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/lc4/">
+                            <span class="checkbox "></span>
+                            <span class="name">底层</span>
+                        </a>
+                        <a href="/ershoufang/lc1/">
+                            <span class="checkbox "></span>
+                            <span class="name">低楼层</span>
+                        </a>
+                        <a href="/ershoufang/lc2/">
+                            <span class="checkbox "></span>
+                            <span class="name">中楼层</span>
+                        </a>
+                        <a href="/ershoufang/lc3/">
+                            <span class="checkbox "></span>
+                            <span class="name">高楼层</span>
+                        </a>
+                        <a href="/ershoufang/lc5/">
+                            <span class="checkbox "></span>
+                            <span class="name">顶层</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="hide " data-role="hide-row">
+                    <h2>
+                        <dt title="北京楼龄在售二手房">楼龄</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/y1/">
+                            <span class="checkbox "></span>
+                            <span class="name">5年以内</span>
+                        </a>
+                        <a href="/ershoufang/y2/">
+                            <span class="checkbox "></span>
+                            <span class="name">10年以内</span>
+                        </a>
+                        <a href="/ershoufang/y3/">
+                            <span class="checkbox "></span>
+                            <span class="name">15年以内</span>
+                        </a>
+                        <a href="/ershoufang/y4/">
+                            <span class="checkbox "></span>
+                            <span class="name">20年以内</span>
+                        </a>
+                        <a href="/ershoufang/y5/">
+                            <span class="checkbox "></span>
+                            <span class="name">20年以上</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="hide " data-role="hide-row">
+                    <h2>
+                        <dt title="北京装修在售二手房">装修</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/de1/">
+                            <span class="checkbox "></span>
+                            <span class="name">精装修</span>
+                        </a>
+                        <a href="/ershoufang/de2/">
+                            <span class="checkbox "></span>
+                            <span class="name">普通装修</span>
+                        </a>
+                        <a href="/ershoufang/de3/">
+                            <span class="checkbox "></span>
+                            <span class="name">毛坯房</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="hide " data-role="hide-row">
+                    <h2>
+                        <dt title="北京用途在售二手房">用途</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/sf1/">
+                            <span class="checkbox "></span>
+                            <span class="name">普通住宅</span>
+                        </a>
+                        <a href="/ershoufang/sf2/">
+                            <span class="checkbox "></span>
+                            <span class="name">商业类</span>
+                        </a>
+                        <a href="/ershoufang/sf3/">
+                            <span class="checkbox "></span>
+                            <span class="name">别墅</span>
+                        </a>
+                        <a href="/ershoufang/sf4/">
+                            <span class="checkbox "></span>
+                            <span class="name">四合院</span>
+                        </a>
+                        <a href="/ershoufang/sf6/">
+                            <span class="checkbox "></span>
+                            <span class="name">车位</span>
+                        </a>
+                        <a href="/ershoufang/sf5/">
+                            <span class="checkbox "></span>
+                            <span class="name">其他</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="hide " data-role="hide-row">
+                    <h2>
+                        <dt title="北京电梯在售二手房">电梯</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/ie2/">
+                            <span class="checkbox "></span>
+                            <span class="name">有电梯</span>
+                        </a>
+                        <a href="/ershoufang/ie1/">
+                            <span class="checkbox "></span>
+                            <span class="name">无电梯</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="hide " data-role="hide-row">
+                    <h2>
+                        <dt title="北京供暖在售二手房">供暖</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/hy1/">
+                            <span class="checkbox "></span>
+                            <span class="name">集体供暖</span>
+                        </a>
+                        <a href="/ershoufang/hy2/">
+                            <span class="checkbox "></span>
+                            <span class="name">自供暖</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="hide " data-role="hide-row">
+                    <h2>
+                        <dt title="北京权属在售二手房">权属</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/dp1/">
+                            <span class="checkbox "></span>
+                            <span class="name">商品房</span>
+                        </a>
+                        <a href="/ershoufang/dp2/">
+                            <span class="checkbox "></span>
+                            <span class="name">公房</span>
+                        </a>
+                        <a href="/ershoufang/dp3/">
+                            <span class="checkbox "></span>
+                            <span class="name">经适房</span>
+                        </a>
+                        <a href="/ershoufang/dp4/">
+                            <span class="checkbox "></span>
+                            <span class="name">其他</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="hide " data-role="hide-row">
+                    <h2>
+                        <dt title="北京类型在售二手房">类型</dt>
+                    </h2>
+                    <dd>
+                        <a href="/ershoufang/bt1/">
+                            <span class="checkbox "></span>
+                            <span class="name">塔楼</span>
+                        </a>
+                        <a href="/ershoufang/bt2/">
+                            <span class="checkbox "></span>
+                            <span class="name">板楼</span>
+                        </a>
+                        <a href="/ershoufang/bt3/">
+                            <span class="checkbox "></span>
+                            <span class="name">板塔结合</span>
+                        </a>
+                    </dd>
+                </dl>
+
+            </div>
+            <div class="more btn-more">更多选项<span class="arrow"></span></div>
         </div>
     </div>
 
